@@ -1,8 +1,11 @@
-import './App.css'
 import RouteComponent from './routes'
+import { GlobalStyle } from "./GlobalStyle"
 
-function App() {
-  return <RouteComponent />
+export default function App() {
+  return (
+    <>
+      <GlobalStyle />
+      <RouteComponent />
+    </>
+  )
 }
-
-export default App
