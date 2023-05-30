@@ -1,0 +1,33 @@
+name: Check Linter
+
+on:
+  pull_request:
+    branches:
+      - main
+      - dev
+jobs:
+  install-dependencies:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+        node-version: [18.x]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+          ref: ${{ github.event.pull_request.head.sha }}
+      - name: Cache node_modules
+        uses: actions/cache@v2
+        with:
+          path: ~/.cache/yarn
+          key: ${{ runner.os }}-node-${{ matrix.node-version }}-modules-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-node-${{ matrix.node-version }}-modules-
+      - name: Install Dependencies
+        run: |
+          yarn install
+      - name: Linter
+        run: |
+          yarn lint:ci
