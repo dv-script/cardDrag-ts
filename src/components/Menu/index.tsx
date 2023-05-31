@@ -1,21 +1,11 @@
 import { Link } from 'react-router-dom';
-import {MenuContainer, HeaderButton, MenuLeft, MenuRigth} from './style.js';
+import {MenuContainer, HeaderButton, MenuLeft, MenuRigth, styleLink, styleIcons} from './style.js';
 import { MdOutlineCancel } from 'react-icons/md';
 import {BsInfoCircle} from 'react-icons/bs';
 import {TiHome} from 'react-icons/ti';
 
 
 export default function Menu() {
-
-    const styleLink = {
-        textDecoration: "none",
-        color: "white",
-        fontFamily: "Poppins",
-        fontWeight: 400,}
-
-    const styleIcons = {
-        marginLeft:"5px",
-    }
 
     return (
         <MenuContainer>

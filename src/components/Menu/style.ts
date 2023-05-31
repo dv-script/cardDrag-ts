@@ -57,3 +57,13 @@ export const MenuRigth = styled.span`
         gap: 10px
     }
 `
+
+export const styleLink = {
+    textDecoration: "none",
+    color: "white",
+    fontFamily: "Poppins",
+    fontWeight: 400,}
+
+export const styleIcons = {
+    marginLeft:"5px",
+}
