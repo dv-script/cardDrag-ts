@@ -2,27 +2,28 @@ import * as Styled from  "./style";
 
 import LoginForm  from '../components/LoginForm';
 import LoginSocial from '../components/LoginSocial';
+import LoginInput from "../components/LoginInput";
+import LoginSubmit from "../components/LoginSubmit";
+import LoginChangeSign from "../components/LoginChangeSign";
 
 export default function Login() {
     return (
         <LoginForm title="Login">
 
-            <Styled.LoginInputContent>
-                <Styled.LoginLabel>Username</Styled.LoginLabel>
-                <Styled.LoginInput placeholder="Type your username" />
-                <Styled.LoginSpan />
-            </Styled.LoginInputContent>
-                    
-            <Styled.LoginInputContent>
-                <Styled.LoginLabel>Password</Styled.LoginLabel>
-                <Styled.LoginInput placeholder="Type your password" />
-                <Styled.LoginSpan />
-            </Styled.LoginInputContent>
+            <LoginInput 
+                labelContent="Username"
+                inputPlaceHolder="Type your username"
+            />
+            <LoginInput
+                labelContent="Password"
+                inputPlaceHolder="Type your password"
+            />
 
             <Styled.LoginForgotYourPassword>Forgot password?</Styled.LoginForgotYourPassword>
 
-            <Styled.LoginSubmit>Login</Styled.LoginSubmit>
-            <Styled.LoginSignUp>Sign Up</Styled.LoginSignUp>
+            <LoginSubmit>Login</LoginSubmit>
+            <LoginChangeSign>Sign Up</LoginChangeSign>
+
             <LoginSocial />
         </LoginForm>
       

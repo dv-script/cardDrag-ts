@@ -7,7 +7,7 @@ export default function LoginForm({ children, title }:PropsWithChildren<ILoginFo
     return (
         <Styled.LoginSection>
             <Styled.LoginContainer>
-                <Styled.LoginBox>
+                <Styled.LoginBox >
 
                     <Styled.LoginTitle>
                         {title}
