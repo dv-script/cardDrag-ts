@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const LoginSubmit = styled.button`
   cursor: pointer;
-  font-family: "Poppins";
   font-size: 18px;
   text-transform: uppercase;
   width: 100%;

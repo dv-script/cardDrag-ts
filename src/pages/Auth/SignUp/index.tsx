@@ -1,7 +1,7 @@
 import * as Styled from "./style"
 
 import LoginForm  from '../components/LoginForm';
-import LoginInput from "../components/LoginInput";
+import Input from "../../../components/Input";
 import LoginSubmit from "../components/LoginSubmit";
 import LoginChangeSign from "../components/LoginChangeSign";
 
@@ -9,22 +9,22 @@ export default function SignUp() {
     return (
         <LoginForm title="Sign Up">
 
-            <LoginInput
+            <Input
                 labelContent="Full Name"
                 inputPlaceHolder="Enter your name"
             />
 
-            <LoginInput
+            <Input
                 labelContent="Email"
                 inputPlaceHolder="Enter your email"
             />
 
-            <LoginInput
+            <Input
                 labelContent="Password"
                 inputPlaceHolder="Enter your password"
             />
 
-            <LoginInput
+            <Input
                 labelContent="Phone Number"
                 inputPlaceHolder="Enter your phone number"
             />

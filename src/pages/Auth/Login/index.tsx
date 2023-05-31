@@ -2,7 +2,7 @@ import * as Styled from  "./style";
 
 import LoginForm  from '../components/LoginForm';
 import LoginSocial from '../components/LoginSocial';
-import LoginInput from "../components/LoginInput";
+import LoginInput from "../../../components/Input";
 import LoginSubmit from "../components/LoginSubmit";
 import LoginChangeSign from "../components/LoginChangeSign";
 
