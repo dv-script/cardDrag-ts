@@ -8,7 +8,6 @@
 <img alt="Github License" src="https://img.shields.io/github/license/dv-script/cardDrag-ts" />
 </div>
 
-
 <h2>:hammer:Project Status:hammer:</h2>
 
 <h2>Project description</h2>
