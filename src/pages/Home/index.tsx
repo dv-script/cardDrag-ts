@@ -1,6 +1,11 @@
+import Menu from "../../components/Menu"
+
 
 export default function Home () {
     return(
-        <h1>Pagina Home</h1>
+        <>
+            <Menu></Menu>
+            <h1>Pagina Home</h1>
+        </>
     )
 }

@@ -1,5 +1,11 @@
+import Menu from "../../components/Menu"
+
 export default function About () {
     return (
-        <h1>Pagina sobre</h1>
+        <>
+            <Menu></Menu>
+            <h1>Pagina sobre</h1>
+        </>
+       
     )
 }
