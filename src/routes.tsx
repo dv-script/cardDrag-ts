@@ -1,10 +1,10 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
-import Login from './pages/Page1'
-import Home from './pages/Page2'
-import Information from './pages/Page3'
-import Register from './pages/Page4'
-import PageError from './pages/Page5'
+import Login from './pages/Auth/Login'
+import Home from './pages/Home/'
+import About from './pages/About/'
+import Register from './pages/Auth/Register'
+import PageError from './pages/PageError'
 
 export default function RouteComponent() {
   return (
@@ -12,8 +12,8 @@ export default function RouteComponent() {
       <Routes>
         <Route path='/' element={<Login></Login>}></Route>
         <Route path='/home' element={<Home></Home>}></Route>
-        <Route path='/informacao' element={<Information></Information>}></Route>
-        <Route path='/registro' element={<Register></Register>}></Route>
+        <Route path='/sobre' element={<About></About>}></Route>
+        <Route path='/registrar' element={<Register></Register>}></Route>
         <Route path='*' element={<PageError></PageError>}></Route>
       </Routes>
     </BrowserRouter>
