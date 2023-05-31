@@ -1,5 +1,5 @@
 import RouteComponent from './routes'
-import { GlobalStyle } from "./GlobalStyle"
+import { GlobalStyle } from './GlobalStyle'
 
 export default function App() {
   return (

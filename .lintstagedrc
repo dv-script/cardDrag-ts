@@ -1,4 +1,4 @@
 {
-  "*": "prettier --write",
-  "*.ts": "eslint --fix"
+  "*.ts": ["npm run lint --fix"],
+  "*.tsx": ["npm run lint --fix"]
 }
