@@ -1,9 +1,5 @@
-import LoginForm  from '../components/LoginForm';
+import LoginForm from '../components/LoginForm'
 
 export default function Register() {
-    return (
-        <LoginForm title="Register">
-            
-        </LoginForm>
-    );
+  return <LoginForm title='Register'></LoginForm>
 }
