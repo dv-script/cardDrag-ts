@@ -1,4 +1,3 @@
-export interface IInput {
-    labelContent: string
-    inputPlaceHolder: string
+export interface IInput extends React.HTMLAttributes<HTMLInputElement> {
+    label: string
 }
