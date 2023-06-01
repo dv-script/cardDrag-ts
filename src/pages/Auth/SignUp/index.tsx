@@ -10,23 +10,27 @@ export default function SignUp() {
         <LoginForm title="Sign Up">
 
             <Input
-                labelContent="Full Name"
-                inputPlaceHolder="Enter your name"
+                label="Full Name"
+                placeholder="Enter your name"
+                type="text"
             />
 
             <Input
-                labelContent="Email"
-                inputPlaceHolder="Enter your email"
+                label="Email"
+                placeholder="Enter your email"
+                type="email"
             />
 
             <Input
-                labelContent="Password"
-                inputPlaceHolder="Enter your password"
+                label="Password"
+                placeholder="Enter your password"
+                type="password"
             />
 
             <Input
-                labelContent="Phone Number"
-                inputPlaceHolder="Enter your phone number"
+                label="Phone Number"
+                placeholder="Enter your phone number"
+                type="phone"
             />
 
             <LoginSubmit>Sign Up</LoginSubmit>

@@ -10,18 +10,23 @@ import LoginChangeSign from "../components/LoginChangeSign";
 export default function Login() {
   return (
     <LoginForm title='Login'>
-      <Styled.LoginInputContent>
-        <Input 
-          labelContent="Username"
-          inputPlaceHolder="Type your username"
-        />
-        <Input
-          labelContent="Password"
-          inputPlaceHolder="Type your password"
-        />
-      </Styled.LoginInputContent>
 
-           
+      <Styled.LoginInputContent>
+
+        <Input 
+          label="Username"
+          placeholder="Type your username"
+          type="text"
+        />
+
+        <Input
+          label="Password"
+          placeholder="Type your password"
+          type="password"
+          
+        />
+
+      </Styled.LoginInputContent>
 
       <Styled.LoginForgotYourPassword>
         Forgot password?
