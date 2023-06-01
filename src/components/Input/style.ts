@@ -19,6 +19,10 @@ export const Input = styled.input`
   display: relative;
   font-size: 16px;
 
+  ::-ms-reveal {
+    display: none;
+  }
+
   ::placeholder {
     font-family: "Poppins";
     font-size: 16px;
@@ -30,6 +34,17 @@ export const Input = styled.input`
   }
 `;
 
+export const TogglePassword = styled.button`
+  cursor: pointer;
+  position: absolute;
+  height: 40px;
+  right: 0;
+  bottom: 0;
+  outline: none;
+  border: none;
+  background-color: transparent;
+`
+
 export const Span = styled.span`
   display: absolute;
   width: 100%;
@@ -37,7 +52,7 @@ export const Span = styled.span`
   background-color: #d9d9d9;
   transition: 300ms;
 
-  ${Input}:focus + & {
+  ${Input}:focus ~ & {
     background-color: #969696;
   }
-`
+`;
