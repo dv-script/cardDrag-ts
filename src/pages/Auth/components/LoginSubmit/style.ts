@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const LoginSubmit = styled.button`
   cursor: pointer;
@@ -6,7 +6,11 @@ export const LoginSubmit = styled.button`
   text-transform: uppercase;
   width: 100%;
   color: #fff;
-  background-image: linear-gradient(to right, rgba(157,81,242,1) 0%, rgba(79,151,233,1) 100%);
+  background-image: linear-gradient(
+    to right,
+    rgba(157, 81, 242, 1) 0%,
+    rgba(79, 151, 233, 1) 100%
+  );
   background-size: 200%;
   border-radius: 25px;
   border: none;
@@ -20,8 +24,10 @@ export const LoginSubmit = styled.button`
   }
 
   :active {
-    background-image: linear-gradient(to left, rgba(157,81,242,1) 100%, rgba(79,151,233,1) 0%);
+    background-image: linear-gradient(
+      to left,
+      rgba(157, 81, 242, 1) 100%,
+      rgba(79, 151, 233, 1) 0%
+    );
   }
-`;
-
-
+`

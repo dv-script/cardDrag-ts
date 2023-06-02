@@ -12,7 +12,7 @@ export const LoginContainer = styled.div`
   padding: 3em;
   border-radius: 25px;
   background-color: #fff;
-  
+
   @media screen and (max-width: 550px) {
     width: 100%;
     height: 100%;

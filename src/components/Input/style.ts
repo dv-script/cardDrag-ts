@@ -1,16 +1,16 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const InputContent = styled.div`
   display: flex;
   flex-direction: column;
   position: relative;
   margin-bottom: 1em;
-`;
+`
 
 export const Label = styled.label`
   font-size: 16px;
   font-weight: 500;
-`;
+`
 
 export const Input = styled.input`
   height: 40px;
@@ -24,7 +24,7 @@ export const Input = styled.input`
   }
 
   ::placeholder {
-    font-family: "Poppins";
+    font-family: 'Poppins';
     font-size: 16px;
     color: #adadad;
   }
@@ -32,7 +32,7 @@ export const Input = styled.input`
   :focus::placeholder {
     opacity: 0;
   }
-`;
+`
 
 export const TogglePassword = styled.button`
   cursor: pointer;
@@ -55,4 +55,4 @@ export const Span = styled.span`
   ${Input}:focus ~ & {
     background-color: #969696;
   }
-`;
+`
