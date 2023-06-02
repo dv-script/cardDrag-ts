@@ -1,26 +1,30 @@
-import { ContainerMenu, IconMenu, DivIconMenu } from './style'
+import { ContainerMenu, IconMenu, ButtonIconMenu } from './style'
 
 export default function MenuMain() {
+  function test() {
+    console.log('oi')
+  }
+
   return (
     <ContainerMenu>
-      <DivIconMenu>
+      <ButtonIconMenu onClick={test}>
         <IconMenu />
-      </DivIconMenu>
-      <DivIconMenu>
+      </ButtonIconMenu>
+      <ButtonIconMenu>
         <IconMenu />
-      </DivIconMenu>
-      <DivIconMenu>
+      </ButtonIconMenu>
+      <ButtonIconMenu>
         <IconMenu />
-      </DivIconMenu>
-      <DivIconMenu>
+      </ButtonIconMenu>
+      <ButtonIconMenu>
         <IconMenu />
-      </DivIconMenu>
-      <DivIconMenu>
+      </ButtonIconMenu>
+      <ButtonIconMenu>
         <IconMenu />
-      </DivIconMenu>
-      <DivIconMenu>
+      </ButtonIconMenu>
+      <ButtonIconMenu>
         <IconMenu />
-      </DivIconMenu>
+      </ButtonIconMenu>
     </ContainerMenu>
   )
 }

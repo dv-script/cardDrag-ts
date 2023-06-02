@@ -17,11 +17,12 @@ export const IconMenu = styled(GrChapterAdd)`
   font-size: 20px;
 `
 
-export const DivIconMenu = styled.div`
+export const ButtonIconMenu = styled.button`
 background: rgba(235, 200, 231, .10);
 padding: 15px 15px 5px 15px;
 cursor: pointer;
 border-radius: 10px;
+border: none;
 
 :hover {
   box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.15);
