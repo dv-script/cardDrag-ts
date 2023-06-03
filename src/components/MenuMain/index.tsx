@@ -1,30 +1,38 @@
-import { ContainerMenu, IconMenu, ButtonIconMenu } from './style'
+import { MenuContainer, ButtonIconMenu } from './style'
+import { GrChapterAdd } from 'react-icons/gr'
+import { TfiLayoutColumn3 } from 'react-icons/Tfi'
 
-export default function MenuMain() {
-  function test() {
-    console.log('oi')
-  }
+type MenuMainProps = {
+  AddFlexibleColumn: () => void
+  addFixedColumn: () => void
+}
 
+const MenuMain: React.FC<MenuMainProps> = ({
+  AddFlexibleColumn,
+  addFixedColumn,
+}) => {
   return (
-    <ContainerMenu>
-      <ButtonIconMenu onClick={test}>
-        <IconMenu />
+    <MenuContainer>
+      <ButtonIconMenu onClick={AddFlexibleColumn}>
+        <GrChapterAdd size={18} />
       </ButtonIconMenu>
       <ButtonIconMenu>
-        <IconMenu />
+        <TfiLayoutColumn3 size={20} onClick={addFixedColumn} />
       </ButtonIconMenu>
       <ButtonIconMenu>
-        <IconMenu />
+        <GrChapterAdd />
       </ButtonIconMenu>
       <ButtonIconMenu>
-        <IconMenu />
+        <GrChapterAdd />
       </ButtonIconMenu>
       <ButtonIconMenu>
-        <IconMenu />
+        <GrChapterAdd />
       </ButtonIconMenu>
       <ButtonIconMenu>
-        <IconMenu />
+        <GrChapterAdd />
       </ButtonIconMenu>
-    </ContainerMenu>
+    </MenuContainer>
   )
 }
+
+export default MenuMain

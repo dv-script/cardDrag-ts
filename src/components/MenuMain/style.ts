@@ -1,7 +1,6 @@
 import styled from 'styled-components'
-import { GrChapterAdd } from 'react-icons/gr'
 
-export const ContainerMenu = styled.menu`
+export const MenuContainer = styled.menu`
   background-color: #413eb2;
   display: flex;
   flex-direction: column;
@@ -11,10 +10,6 @@ export const ContainerMenu = styled.menu`
   padding: 50px 0px;
   align-items: center;
   box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.24);
-`
-
-export const IconMenu = styled(GrChapterAdd)`
-  font-size: 20px;
 `
 
 export const ButtonIconMenu = styled.button`
