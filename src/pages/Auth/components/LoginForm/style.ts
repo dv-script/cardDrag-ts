@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 
 export const LoginSection = styled.section`
-  font-family: 'Poppins';
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -13,6 +12,12 @@ export const LoginContainer = styled.div`
   padding: 3em;
   border-radius: 25px;
   background-color: #fff;
+
+  @media screen and (max-width: 550px) {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+  }
 `
 
 export const LoginBox = styled.form`

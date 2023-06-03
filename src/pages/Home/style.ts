@@ -10,3 +10,4 @@ export const StaticColumnStyle = styled.div`
   gap: 20px;
   justify-content: center;
 `
+

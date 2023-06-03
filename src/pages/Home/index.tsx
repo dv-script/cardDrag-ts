@@ -6,6 +6,7 @@ import { MainContainer, StaticColumnStyle } from './style'
 import { FlexibleColumn } from '../../components/FlexibleColumn'
 import { StaticColumn } from '../../components/StaticColumn'
 
+
 export default function Home() {
   const [isFlexComponentVisible, setFlexComponentVisible] = useState(false)
   const [isStaticComponentVisible, setStaticComponentVisible] = useState(false)
@@ -44,6 +45,7 @@ export default function Home() {
             {componentesStatic.map((componente) => componente)}
           </StaticColumnStyle>
         )}
+
       </MainContainer>
     </>
   )

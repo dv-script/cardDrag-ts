@@ -1,6 +1,8 @@
 import styled from 'styled-components'
 
+
 export const MenuContainer = styled.menu`
+
   background-color: #413eb2;
   display: flex;
   flex-direction: column;
