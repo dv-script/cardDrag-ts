@@ -22,4 +22,13 @@ export const GlobalStyle = createGlobalStyle`
   p {
     margin: 0;
   }
+
+  ::-webkit-scrollbar{
+    width: 6px;
+    height: 20px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: rgb(65, 62, 178);
+  }
 `
