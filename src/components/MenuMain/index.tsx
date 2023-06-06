@@ -1,10 +1,6 @@
 import { MenuContainer, ButtonIconMenu } from './style'
 import { GrChapterAdd } from 'react-icons/gr'
-
-type MenuMainProps = {
-  AddFlexibleColumn: () => void
-  addFixedColumn: () => void
-}
+import { MenuMainProps } from './types'
 
 const MenuMain: React.FC<MenuMainProps> = ({
   AddFlexibleColumn,
