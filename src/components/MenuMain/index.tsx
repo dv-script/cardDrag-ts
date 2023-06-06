@@ -1,6 +1,5 @@
 import { MenuContainer, ButtonIconMenu } from './style'
 import { GrChapterAdd } from 'react-icons/gr'
-import { TfiLayoutColumn3 } from 'react-icons/Tfi'
 
 type MenuMainProps = {
   AddFlexibleColumn: () => void
@@ -17,7 +16,7 @@ const MenuMain: React.FC<MenuMainProps> = ({
         <GrChapterAdd size={18} />
       </ButtonIconMenu>
       <ButtonIconMenu>
-        <TfiLayoutColumn3 size={20} onClick={addFixedColumn} />
+        <GrChapterAdd size={20} onClick={addFixedColumn} />
       </ButtonIconMenu>
       <ButtonIconMenu>
         <GrChapterAdd />
