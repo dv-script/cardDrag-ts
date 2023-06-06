@@ -34,5 +34,4 @@ const MenuMain: React.FC<MenuMainProps> = ({
     </MenuContainer>
   )
 }
-
 export default MenuMain
