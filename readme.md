@@ -10,8 +10,10 @@
 
 
 <h2>:hammer:Project Status:hammer:</h2>
+<p>Project in constant updates</p>
 
 <h2>Project description</h2>
+<p>This project aims to train our capabilities in relation to react and its libraries by creating a kanban style organization software</p>
 
 <h2 >Version Mobile</h2>
 
@@ -27,7 +29,9 @@
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain-wordmark.svg" width="50" title="Git" />
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg" height="40" width="55" title="Visual code" />
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/chrome/chrome-original-wordmark.svg" width="50" title="Google Chrome"/>
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firefox/firefox-original-wordmark.svg" width="50" title="Firefox" /></div>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firefox/firefox-original-wordmark.svg" width="50" title="Firefox" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg" width="50" title="eslint"/>
+</div>
     
 <h2> Project link </h2>
 <a href="">Link Vercel</a>

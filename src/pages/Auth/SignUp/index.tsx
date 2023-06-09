@@ -7,26 +7,26 @@ import LoginChangeSign from '../components/LoginChangeSign'
 
 export default function SignUp() {
   return (
-    <LoginForm title='Sign Up'>
-      <Input label='Full Name' placeholder='Enter your name' type='text' />
-
-      <Input label='Email' placeholder='Enter your email' type='email' />
-
+    <LoginForm title='Cadastro'>
       <Input
-        label='Password'
-        placeholder='Enter your password'
-        type='password'
+        label='Nome Completo'
+        placeholder='Insira seu nome completo'
+        type='text'
       />
 
+      <Input label='Email' placeholder='Insira seu email' type='email' />
+
+      <Input label='Senha' placeholder='Insira sua senha' type='password' />
+
       <Input
-        label='Phone Number'
-        placeholder='Enter your phone number'
+        label='Numero de telefone'
+        placeholder='(xx) xxxxx-xxxx'
         type='phone'
       />
 
-      <LoginSubmit>Sign Up</LoginSubmit>
+      <LoginSubmit>Cadastrar</LoginSubmit>
       <Styled.SignUpDoYouHaveAnAccount>
-        Do you have an Account?
+        Ja possui uma conta ?
       </Styled.SignUpDoYouHaveAnAccount>
       <LoginChangeSign>Sign in</LoginChangeSign>
     </LoginForm>

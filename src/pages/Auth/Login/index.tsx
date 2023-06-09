@@ -7,25 +7,26 @@ import LoginSocial from '../components/LoginSocial'
 import LoginSubmit from '../components/LoginSubmit'
 import LoginChangeSign from '../components/LoginChangeSign'
 
+import { RiLoginBoxFill } from 'react-icons/ri'
+
 export default function Login() {
   return (
     <LoginForm title='Login'>
       <Styled.LoginInputContent>
-        <Input label='Username' placeholder='Type your username' type='text' />
+        <Input label='Login' placeholder='Insira seu login' type='text' />
 
-        <Input
-          label='Password'
-          placeholder='Type your password'
-          type='password'
-        />
+        <Input label='Senha' placeholder='Insira sua senha' type='password' />
       </Styled.LoginInputContent>
 
       <Styled.LoginForgotYourPassword>
-        Forgot password?
+        Esqueceu sua senha?
       </Styled.LoginForgotYourPassword>
 
-      <LoginSubmit>Login</LoginSubmit>
-      <LoginChangeSign>Sign Up</LoginChangeSign>
+      <LoginSubmit>
+        Entrar
+        <RiLoginBoxFill size={25} />
+      </LoginSubmit>
+      <LoginChangeSign>Cadastre-se</LoginChangeSign>
 
       <LoginSocial />
     </LoginForm>
