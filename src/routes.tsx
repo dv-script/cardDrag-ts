@@ -12,8 +12,8 @@ export default function RouteComponent() {
       <Routes>
         <Route path='/' element={<Login></Login>}></Route>
         <Route path='/home' element={<Home></Home>}></Route>
-        <Route path='/about' element={<About></About>}></Route>
-        <Route path='/signup' element={<SignUp></SignUp>}></Route>
+        <Route path='/sobre' element={<About></About>}></Route>
+        <Route path='/cadastro' element={<SignUp></SignUp>}></Route>
         <Route path='*' element={<PageError></PageError>}></Route>
       </Routes>
     </BrowserRouter>

@@ -6,7 +6,7 @@ import * as Style from './style'
 export default function LoginSocial() {
   return (
     <Style.SocialSection>
-      <Style.SocialSignUpText>Or Sign Up Using</Style.SocialSignUpText>
+      <Style.SocialSignUpText>Ou cadastre-se usando:</Style.SocialSignUpText>
 
       <Style.SocialBox>
         <Style.SocialOption style={{ backgroundColor: '#3b5998' }}>

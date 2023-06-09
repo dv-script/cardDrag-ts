@@ -18,6 +18,8 @@ export const LoginSubmit = styled.button`
   padding: 0.5rem;
   margin-top: 1em;
   transition: 0.6s;
+  display: flex;
+  justify-content: center;
 
   :hover {
     background-position: right;
